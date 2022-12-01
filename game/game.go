@@ -1,7 +1,7 @@
 package game
 
 import (
-	"AdventOfCode2020/days"
+	"AdventOfCode2022/days"
 	"fmt"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"

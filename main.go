@@ -1,8 +1,8 @@
 package main
 
 import (
-	"AdventOfCode2020/days"
-	"AdventOfCode2020/game"
+	"AdventOfCode2022/days"
+	"AdventOfCode2022/game"
 	"fmt"
 	"os"
 	"strconv"
