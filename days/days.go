@@ -3,6 +3,8 @@ package days
 import (
 	"AdventOfCode2022/days/day0"
 	"AdventOfCode2022/days/day1"
+	"AdventOfCode2022/days/day2"
+	"AdventOfCode2022/days/day3"
 	"bufio"
 	"fmt"
 	"github.com/hajimehoshi/ebiten/v2"
@@ -20,6 +22,8 @@ type Day struct {
 var dayFunctions = []Day{
 	{0, day0.Day0, nil, nil},
 	{1, day1.Day1, day1.VisualSetup, day1.VisualStep},
+	{2, day2.Day2, nil, nil},
+	{3, day3.Day3, nil, nil},
 }
 
 func Get(day int) Day {
