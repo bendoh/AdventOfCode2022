@@ -5,6 +5,7 @@ import (
 	"AdventOfCode2022/days/day1"
 	"AdventOfCode2022/days/day2"
 	"AdventOfCode2022/days/day3"
+	"AdventOfCode2022/days/day4"
 	"bufio"
 	"fmt"
 	"github.com/hajimehoshi/ebiten/v2"
@@ -24,6 +25,7 @@ var dayFunctions = []Day{
 	{1, day1.Day1, day1.VisualSetup, day1.VisualStep},
 	{2, day2.Day2, nil, nil},
 	{3, day3.Day3, nil, nil},
+	{4, day4.Day4, nil, nil},
 }
 
 func Get(day int) Day {
