@@ -1,6 +1,7 @@
 package game
 
 import (
+	"AdventOfCode2022/config"
 	"AdventOfCode2022/days"
 	"fmt"
 	"github.com/hajimehoshi/ebiten/v2"
@@ -8,6 +9,11 @@ import (
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 	"log"
 	"time"
+)
+
+const (
+	Width  = config.GameWidth
+	Height = config.GameHeight
 )
 
 type Game struct {
@@ -24,7 +30,7 @@ type Game struct {
 
 func Init(day int, inputFile string) {
 	g := Game{currentDay: day, givenDay: day, inputFile: inputFile}
-	ebiten.SetWindowSize(640, 480)
+	ebiten.SetWindowSize(Width, Height)
 	ebiten.SetWindowTitle("Advent of Code 2020")
 
 	if err := ebiten.RunGame(&g); err != nil {
