@@ -3,12 +3,17 @@ package days
 import (
 	"AdventOfCode2022/days/day0"
 	"AdventOfCode2022/days/day1"
+	"AdventOfCode2022/days/day11"
+	"AdventOfCode2022/days/day12"
+	"AdventOfCode2022/days/day13"
 	"AdventOfCode2022/days/day2"
 	"AdventOfCode2022/days/day3"
 	"AdventOfCode2022/days/day4"
 	"AdventOfCode2022/days/day5"
 	"AdventOfCode2022/days/day6"
 	"AdventOfCode2022/days/day7"
+	"AdventOfCode2022/days/day8"
+	"AdventOfCode2022/days/day9"
 	"bufio"
 	"fmt"
 	"github.com/hajimehoshi/ebiten/v2"
@@ -32,6 +37,12 @@ var dayFunctions = []Day{
 	{5, day5.Day5, nil, nil},
 	{6, day6.Day6, nil, nil},
 	{7, day7.Day7, nil, nil},
+	{8, day8.Day8, nil, nil},
+	{9, day9.Day9, nil, nil},
+	{10, nil, nil, nil},
+	{11, day11.Day11, nil, nil},
+	{12, day12.Day12, nil, nil},
+	{13, day13.Day13, nil, nil},
 }
 
 func Get(day int) Day {
