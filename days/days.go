@@ -3,9 +3,11 @@ package days
 import (
 	"AdventOfCode2022/days/day0"
 	"AdventOfCode2022/days/day1"
+	"AdventOfCode2022/days/day10"
 	"AdventOfCode2022/days/day11"
 	"AdventOfCode2022/days/day12"
 	"AdventOfCode2022/days/day13"
+	"AdventOfCode2022/days/day14"
 	"AdventOfCode2022/days/day2"
 	"AdventOfCode2022/days/day3"
 	"AdventOfCode2022/days/day4"
@@ -39,10 +41,11 @@ var dayFunctions = []Day{
 	{7, day7.Day7, nil, nil},
 	{8, day8.Day8, nil, nil},
 	{9, day9.Day9, nil, nil},
-	{10, nil, nil, nil},
+	{10, day10.Day10, nil, nil},
 	{11, day11.Day11, nil, nil},
 	{12, day12.Day12, nil, nil},
 	{13, day13.Day13, nil, nil},
+	{14, day14.Day14, nil, nil},
 }
 
 func Get(day int) Day {
